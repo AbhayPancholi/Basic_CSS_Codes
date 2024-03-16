@@ -33,7 +33,7 @@ div[id='myid'] p{
 nav ul li a {
     color: hotpink;
 }
-
+/* sibling combinator/ child combinator */
 p + h3 {
     text-decoration: underline;
 }
@@ -41,4 +41,22 @@ p + h3 {
 .upvote+button{
     background-color: cornflowerblue;
     color: brown;
+}
+
+/* child combinator */
+div > input {
+    background-color: salmon;
+}
+
+/* Attribute Selector */
+input[type='text'] {
+    color: orchid;
+}
+
+input[type='password'] {
+    color: blue;
+}
+
+input[type] {
+    background-color: ghostwhite;
 }
