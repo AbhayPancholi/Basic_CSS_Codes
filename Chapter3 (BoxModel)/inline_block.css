@@ -1,0 +1,13 @@
+div {
+    background-color: crimson;
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block; /*this property makes the block element like div to behave as an inline element and apply the various properties
+    like the height and width */
+}
+
+#third {
+    display: None; /*this will make the third div inactive */
+}

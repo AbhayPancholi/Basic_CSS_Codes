@@ -1,0 +1,16 @@
+* {
+    font: Courier New;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+button[id='searchbtn'] {
+    color: white;
+    background-color: black;
+}
+
+button[class='userbtn'] {
+    background-color: aqua;
+}

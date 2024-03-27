@@ -1,0 +1,21 @@
+span {
+    /* display: block; */
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+
+div {
+    /* display: inline; */
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Observe the difference in the div and span */
+
+/* display attribute can be used to set a inline element as a block element and vise versa it has properties like inline and block */

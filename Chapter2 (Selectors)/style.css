@@ -60,3 +60,43 @@ input[type='password'] {
 input[type] {
     background-color: ghostwhite;
 }
+
+/* Pseudo Class */
+
+button:hover{
+    color: black;
+    background-color: beige;
+}
+
+button:active{
+    color:burlywood;
+    background-color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: orchid;
+}
+
+input[type='radio']:checked + label{
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.post:nth-of-type(4n){
+    background-color: blanchedalmond;
+}
+
+/* Pseudo element */
+
+h1::first-letter{
+    color:black;
+}
+
+p::first-line{
+    color:blue;
+}
+
+p::selection{
+    background-color: red;
+}
